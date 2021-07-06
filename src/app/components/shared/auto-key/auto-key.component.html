@@ -1,1 +1,37 @@
-<p>auto-key works!</p>
+<div class="doors-key">
+  <div class="nav">
+    <h3>Автомобильные ключи:</h3>
+    <button class="hide" (click)="toggle()">{{btn}}</button>
+  </div>
+  <div *ngIf="hidden">
+    <swiper class="swiper-container" [config]="config">
+      <div class="swiper-el">
+        <img src="../../../../assets/auto1.svg" alt="Автомобильный ключ LADA/ВАЗ/ГАЗ">
+        <h4>Автомобильный ключ LADA/ВАЗ/ГАЗ</h4>
+        <p>от 30  0р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/auto2.svg" alt="Автомобильный ключ">
+        <h4>Автомобильный ключ</h4>
+        <p>от 700р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/auto3.svg" alt="Автомобильный ключ под чип">
+        <h4>Автомобильный ключ под чип</h4>
+        <p>от 1500р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/auto4.svg" alt="Автомобильный ключ с чипом">
+        <h4>Автомобильный ключ с чипом</h4>
+        <p>от 3500р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/auto5.svg" alt="Выкидной ключ">
+        <h4>Выкидной ключ</h4>
+        <p>от 5000р</p>
+      </div>
+    </swiper>
+  </div>
+</div>
+
+

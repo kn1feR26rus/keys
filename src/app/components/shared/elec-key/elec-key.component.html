@@ -1,1 +1,33 @@
-<p>elec-key works!</p>
+<div class="doors-key">
+  <div class="nav">
+    <h3>Домофоны / электронные ключи:</h3>
+    <button class="hide" (click)="toggle()">{{btn}}</button>
+  </div>
+  <div *ngIf="hidden">
+    <swiper class="swiper-container" [config]="config">
+      <div class="swiper-el">
+        <img src="../../../../assets/elec1.svg" alt="Электронный ключ 'Прокси'">
+        <h4>Электронный ключ "Прокси"</h4>
+        <p>от 200р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/elec2.svg" alt="Электронный ключ 'Даллас'">
+        <h4>Электронный ключ "Даллас"</h4>
+        <p>от 200р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/elec3.svg" alt="Электронный ключ 'Прокси-Карта'">
+        <h4>Электронный ключ "Прокси-Карта"</h4>
+        <p>от 200р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/elec4.svg" alt="Электронный ключ 'Прокси' с рисунком">
+        <h4>Электронный ключ "Прокси" с рисунком</h4>
+        <p>от 300р</p>
+      </div>
+    </swiper>
+  </div>
+</div>
+
+
+

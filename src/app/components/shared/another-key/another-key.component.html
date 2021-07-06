@@ -1,1 +1,32 @@
-<p>another-key works!</p>
+<div class="doors-key">
+  <div class="nav">
+    <h3>Ещё ключи:</h3>
+    <button class="hide" (click)="toggle()">{{btn}}</button>
+  </div>
+  <div *ngIf="hidden">
+    <swiper class="swiper-container" [config]="config">
+      <div class="swiper-el">
+        <img src="../../../../assets/another1.svg" alt="Ключ от почты / мебельный">
+        <h4>Ключ от почты / мебельный</h4>
+        <p>от 30  0р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/another2.svg" alt="Сейфовый ключ">
+        <h4>Сейфовый ключ</h4>
+        <p>от 700р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/another3.svg" alt="Пульт к воротам/шлагбаума">
+        <h4>Пульт к воротам/шлагбаума</h4>
+        <p>от 1500р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/another4.svg" alt="Пульт к автомобильной сигнализации">
+        <h4>Пульт к автомобильной сигнализации</h4>
+        <p>от 3500р</p>
+      </div>
+    </swiper>
+  </div>
+</div>
+
+

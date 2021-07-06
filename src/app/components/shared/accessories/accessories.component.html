@@ -1,1 +1,32 @@
-<p>accessories works!</p>
+<div class="doors-key">
+  <div class="nav">
+    <h3>Аксессуары для ключей:</h3>
+    <button class="hide" (click)="toggle()">{{btn}}</button>
+  </div>
+  <div *ngIf="hidden">
+    <swiper class="swiper-container" [config]="config">
+      <div class="swiper-el">
+        <img src="../../../../assets/acc1.svg" alt="Чехлы для автомобильных ключей">
+        <h4>Чехлы для автомобильных ключей</h4>
+        <p>от 400р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/acc2.svg" alt="Кольца для ключей">
+        <h4>Кольца для ключей</h4>
+        <p>от 10р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/acc3.svg" alt="Карабины">
+        <h4>Карабины</h4>
+        <p>от 50р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/acc4.svg" alt="Бирки и шляпки для ключей">
+        <h4>Бирки и шляпки для ключей</h4>
+        <p>от 20р</p>
+      </div>
+    </swiper>
+  </div>
+</div>
+
+
