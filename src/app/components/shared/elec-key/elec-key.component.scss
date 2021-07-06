@@ -1,5 +1,31 @@
+.elec-key {
+  width: 1170px;
+  margin-left: 165px;
+}
+
+h3 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #F6F7EB;
+}
+
+.hide {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #F6F7EB;
+}
+
 .nav {
   display: flex;
+  justify-content: space-between;
 }
 
 button {

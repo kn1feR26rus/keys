@@ -19,6 +19,8 @@ import { ElecKeyComponent } from './components/shared/elec-key/elec-key.componen
 import { AutoKeyComponent } from './components/shared/auto-key/auto-key.component';
 import { AnotherKeyComponent } from './components/shared/another-key/another-key.component';
 import { AccessoriesComponent } from './components/shared/accessories/accessories.component';
+import { BtrServComponent } from './components/shared/btr-serv/btr-serv.component';
+import { AnothServComponent } from './components/shared/anoth-serv/anoth-serv.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -42,6 +44,8 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     AutoKeyComponent,
     AnotherKeyComponent,
     AccessoriesComponent,
+    BtrServComponent,
+    AnothServComponent,
   ],
   imports: [
     BrowserModule,

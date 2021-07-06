@@ -8,12 +8,11 @@ import {
 } from 'ngx-swiper-wrapper';
 
 @Component({
-  selector: 'app-elec-key',
-  templateUrl: './elec-key.component.html',
-  styleUrls: ['./elec-key.component.scss']
+  selector: 'app-anoth-serv',
+  templateUrl: './anoth-serv.component.html',
+  styleUrls: ['./anoth-serv.component.scss']
 })
-export class ElecKeyComponent implements OnInit {
-
+export class AnothServComponent implements OnInit {
   public config: SwiperConfigInterface  = {
     direction: 'horizontal',
     observer: true,
@@ -31,6 +30,7 @@ else {
   this.hidden = !this.hidden
   this.btn = 'Скрыть'
 }
+
 }
 
   constructor() { }

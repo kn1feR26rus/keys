@@ -1,0 +1,32 @@
+<div class="btr-serv">
+  <div class="nav">
+    <h3>Замена батареек:</h3>
+    <button class="hide" (click)="toggle()">{{btn}}</button>
+  </div>
+  <div *ngIf="hidden">
+    <swiper class="swiper-container" [config]="config">
+      <div class="swiper-el">
+        <img src="../../../../assets/btrs1.svg" alt="в автомобильный ключах">
+        <h4>В АВТОМОБИЛЬНЫХ КЛЮЧАХ</h4>
+        <p>от 30  0р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/btrs2.svg" alt="В часах">
+        <h4>В ЧАСАХ</h4>
+        <p>от 700р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/btrs3.svg" alt="В пультах от ворот/шлагбаума">
+        <h4>В ПУЛЬТАХ ОТ ВОРОТ/ШЛАГБАУМА</h4>
+        <p>от 1500р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/btrs4.svg" alt="в пультах сигнализации">
+        <h4>В ПУЛЬТАХ СИГНАЛИЗАЦИИ</h4>
+        <p>от 3500р</p>
+      </div>
+    </swiper>
+  </div>
+</div>
+
+

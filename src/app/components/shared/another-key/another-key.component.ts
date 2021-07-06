@@ -25,7 +25,7 @@ btn = 'Скрыть'
 toggle() {
 if(this.btn === 'Скрыть') {
   this.hidden = !this.hidden
-  this.btn = 'Показать'
+  this.btn = 'Смотреть все'
 }
 else {
   this.hidden = !this.hidden

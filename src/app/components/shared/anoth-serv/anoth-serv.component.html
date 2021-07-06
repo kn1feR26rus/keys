@@ -1,0 +1,32 @@
+<div class="anoth-serv">
+  <div class="nav">
+    <h3>Дополнительные услуги:</h3>
+    <button class="hide" (click)="toggle()">{{btn}}</button>
+  </div>
+  <div *ngIf="hidden">
+    <swiper class="swiper-container" [config]="config">
+      <div class="swiper-el">
+        <img src="../../../../assets/btrs1.svg" alt="Ремонт автомобильных ключей">
+        <h4>РЕМОНТ АВТОМОБИЛЬНЫХ КЛЮЧЕЙ</h4>
+        <p>от 30  0р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/btrs2.svg" alt="Ремонт замков автомобиля">
+        <h4>РЕМОНТ ЗАМКОВ АВТОМОБИЛЯ</h4>
+        <p>от 700р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/btrs3.svg" alt="Работа с часовым ремешком">
+        <h4>РАБОТА С ЧАСОВЫМ РЕМЕШКОМ</h4>
+        <p>от 1500р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/btrs4.svg" alt="Замена корпуса на выкидном ключе">
+        <h4>ЗАМЕНА КОРПУСА НА ВЫКИДНОМ КЛЮЧЕ</h4>
+        <p>от 3500р</p>
+      </div>
+    </swiper>
+  </div>
+</div>
+
+
