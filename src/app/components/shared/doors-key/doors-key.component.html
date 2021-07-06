@@ -1,0 +1,39 @@
+<div class="doors-key">
+  <div class="nav">
+    <h3>Дверные / квартирные ключи / навесные замки / роллставни:</h3>
+    <button class="hide" (click)="toggle()">{{btn}}</button>
+  </div>
+  <div *ngIf="hidden">
+    <swiper class="swiper-container" [config]="config">
+      <div class="swiper-el">
+        <img src="../../../../assets/door1.svg" alt="Английский ключ">
+        <h4>Английский ключ</h4>
+        <p>или перфорированный ключ</p>
+        <p>от 150р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/door2.svg" alt="Финский ключ">
+        <h4>Финский ключ</h4>
+        <p>от 150р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/door3.svg" alt="Вертикальный ключ">
+        <h4>Вертикальный ключ</h4>
+        <p>или перфорированный ключ</p>
+        <p>от 150р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/door4.svg" alt="Дверной ключ">
+        <h4>Дверной ключ</h4>
+        <p>от 150р</p>
+      </div>
+      <div class="swiper-el">
+        <img src="../../../../assets/door5.svg" alt="Крестовой ключ">
+        <h4>Крестовой ключ</h4>
+        <p>от 150р</p>
+      </div>
+    </swiper>
+  </div>
+</div>
+
+
