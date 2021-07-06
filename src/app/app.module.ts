@@ -21,6 +21,7 @@ import { AnotherKeyComponent } from './components/shared/another-key/another-key
 import { AccessoriesComponent } from './components/shared/accessories/accessories.component';
 import { BtrServComponent } from './components/shared/btr-serv/btr-serv.component';
 import { AnothServComponent } from './components/shared/anoth-serv/anoth-serv.component';
+import { AdressComponent } from './components/main/adress/adress.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
@@ -46,6 +47,7 @@ const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
     AccessoriesComponent,
     BtrServComponent,
     AnothServComponent,
+    AdressComponent,
   ],
   imports: [
     BrowserModule,
