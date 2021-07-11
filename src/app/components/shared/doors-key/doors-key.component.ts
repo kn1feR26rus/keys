@@ -26,14 +26,12 @@ toggle() {
 if(this.btn === 'Скрыть') {
   this.hidden = !this.hidden
   this.btn = 'Смотреть все'
-}
+  }
 else {
   this.hidden = !this.hidden
   this.btn = 'Скрыть'
+  }
 }
-
-}
-
   constructor() { }
 
   ngOnInit(): void {

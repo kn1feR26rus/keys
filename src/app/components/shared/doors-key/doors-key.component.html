@@ -4,7 +4,9 @@
     <button class="hide" (click)="toggle()">{{btn}}</button>
   </div>
   <div *ngIf="hidden">
-    <swiper class="swiper-container" [config]="config">
+    <swiper class="swiper-container"
+    [config]="config"
+    >
       <div class="swiper-el">
         <img src="../../../../assets/door1.svg" alt="Английский ключ">
         <h4>Английский ключ</h4>

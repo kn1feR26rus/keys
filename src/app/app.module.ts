@@ -26,7 +26,7 @@ import { AdressComponent } from './components/main/adress/adress.component';
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
   direction: 'horizontal',
   slidesPerView: 'auto',
-  spaceBetween: 10,
+  spaceBetween: 50,
 };
 
 @NgModule({
