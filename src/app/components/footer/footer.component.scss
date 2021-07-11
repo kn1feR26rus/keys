@@ -1,0 +1,79 @@
+footer {
+  background-color: #121212;
+  width: 1500px;
+  height: 228px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 165px;
+}
+
+p {
+  margin-left: 93px ;
+  color: #F6F7EB;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.info__logo {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  margin-left: 40px;
+  justify-content: space-between;
+}
+
+.flogo {
+  width: 34px;
+  height: 34px;
+  background-size: cover;
+}
+
+.vk {
+  width: 48px;
+  height: 34px;
+}
+
+.social-logo {
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.social-logo:first-child {
+  width: 48px;
+  height: 34px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 343px;
+  text-align: center;
+}
+
+.phone {
+  width: 100px;
+  margin-top: 16px;
+  text-align: center;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  color: #F6F7EB;
+  text-decoration: none;
+}
