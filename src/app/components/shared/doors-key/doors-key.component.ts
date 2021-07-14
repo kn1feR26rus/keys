@@ -17,7 +17,7 @@ export class DoorsKeyComponent implements OnInit {
   public config: SwiperConfigInterface  = {
     direction: 'horizontal',
     observer: true,
-    spaceBetween: 30,
+    spaceBetween: 55,
 }
 hidden: boolean = true;
 btn = 'Скрыть'

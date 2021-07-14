@@ -17,8 +17,10 @@ export class AutoKeyComponent implements OnInit {
   public config: SwiperConfigInterface  = {
     direction: 'horizontal',
     observer: true,
-    spaceBetween: 30,
+    allowTouchMove: true,
+    autoHeight: true,
 }
+
 hidden: boolean = true;
 btn = 'Скрыть'
 
@@ -31,7 +33,6 @@ else {
   this.hidden = !this.hidden
   this.btn = 'Скрыть'
 }
-
 }
 
   constructor() { }
